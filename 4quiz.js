@@ -9,7 +9,7 @@
     const quizScore = document.querySelector('#result > p');
     
 
-    const quizSet = shuffle ([
+    const quizSet = shuffle([
         { quizQuestion: '同志社大学の創立年は？', c: ['1875年', '1905年', '1865年', '1915年'] },
         { quizQuestion: '同志社大学にある学部の数は？', c: ['14', '9', '11', '13'] },
         { quizQuestion: '同志社大学の最も新しい学部はどれ？', c: ['グローバル地域文化学部', 'グローバル・コミュニケーション学部', '文化情報学部', 'スポーツ健康科学部'] },
